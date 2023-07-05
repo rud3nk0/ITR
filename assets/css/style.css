@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*
+{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: #4F4F4F;
+    overflow-x: hidden;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+/***************************************/
+/****              Start            ****/
+/****           with header         ****/
+/***************************************/
+.header{
+    display: flex;
+
+    background: #4F4F4F;
+
+    width: 100%;
+    height: 150px;
+}
+
+.header_img{
+    width: 105px;
+    height: 110px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.header_nav{
+    margin-left: 994px;
+    margin-top: 54px;
+}
+
+.link{
+    height: 39px;
+
+    margin-left: 76px;
+
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    gap: 80.74px;
+
+    color: white;
+    text-align: right;
+    font-size: 16px;
+    font-family: Inter;
+    line-height: 39px;    
+    
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #B8B8B8;
+}
+/***************************************/
+/****              End              ****/
+/****           with header         ****/
+/***************************************/
+
+
+
+
+/***************************************/
+/****              Start            ****/
+/****           with wrapper        ****/
+/***************************************/
+
+.paralax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.TitleSection{
+    position:relative;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/wrapper/bg_one.jpg");
+ 
+    color:white;
+    width: 100%;
+    height: 100vh;
+}
+.TitleSection h1{ 
+    padding-top: 322px;
+  
+    color: #FFF;
+    text-align: center;
+    font-size: 69px;
+    font-family: Inter;
+    line-height: 84px;
+}
+
+.wrapper_subtitle{
+    margin-top: 20px;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 27px;
+}
+
+.wrapper_button{
+    margin-left: 874px;
+    margin-top: 50px;
+
+    width: 140px;
+    height: 46px;
+
+    color: #ffffff;
+    font-size: 13px;
+    font-family: Inter;
+    line-height: 18.2px;
+
+    background: none;
+
+    border-radius: 20px;
+    border: 2px solid #323232;
+
+    transition: ease-in-out 1s;
+}
+
+.wrapper_button:hover{
+    border: 2px solid white;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/***************************************/
+/****            Start              ****/
+/****            About              ****/
+/***************************************/
+
+.AboutSection{
+    display: flex;
+    padding-left: 300px;
+    padding-top: 300px;
+
+    background: #4F4F4F;
+}
+
+.AboutSectionInfo{
+    padding: 73px 244px 212px 231px;
+
+    width: 739px;
+    height: 182px;
+
+    background: #8F8E8E;
+}
+
+.AboutSectionInfo_title{
+    color: #000;
+    font-size: 34px;
+    font-family: Inter;
+}
+
+.AboutSectionInfo_subtitle{
+    color: #000;
+    font-size: 15px;
+    font-family: Inter;
+    line-height: 28.9px;
+}
+
+.paralaxAbout{
+    background-attachment: fixed;
+    background-position: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.AboutSectionParalax{
+    position:relative;
+    right: 148px;
+    top: 38px;
+
+    width: 880px;
+    height: 550px;
+
+    background-image: url("../img/wrapper/bg_two.jpg");
+}
+/***************************************/
+/****          End section          ****/
+/****            About              ****/
+/***************************************/
+
+
+
+/***************************************/
+/****            Start              ****/
+/****            Services           ****/
+/***************************************/
+.sectionServices{
+    padding-top: 300px;
+}
+
+.sectionServices_card{
+    display: flex;
+    margin-top: 50px;
+}
+
+.ServicesTitle{
+    color: #FFF;
+    text-align: center;
+    font-size: 31px;
+    font-family: Inter;
+}
+
+.servicesCard{
+    flex: 1 1 0;
+}
+
+.servicesCard:first-child{
+    margin-left: 100px;
+}
+
+.card_Img{
+    width: 560px;
+    height: 375px;
+    cursor: pointer;
+}
+
+.servicesSubTitle{
+    color: #FFF;
+    font-size: 23px;
+    font-family: Inter;
+    line-height: 31.92px;
+}
+
+.servicesSubTitle::after{
+    margin-top: 30px;
+
+    content: " ";
+    display: block;
+    width: 560px;
+    height: 2px;
+    border-bottom: 1px solid rgba(18, 18, 18, 0.20);
+}
+
+.servicesPrice{
+    color: #FFF;
+
+    font-size: 13px;
+    font-family: Inter;
+    line-height: 32px;
+}
+
+.servicePrice{
+    margin-top: 20px;
+}
+
+.servicesBTN{
+    margin-top: 20px;
+
+    width: 132px;
+    height: 37px;
+
+    background: #FFF;
+    border: none;
+    transition: .7s ease-in;
+}
+
+.servicesBTN:hover{
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+}
+/***************************************/
+/****            End                ****/
+/****            Services           ****/
+/***************************************/
+
+/***************************************/
+/****              End              ****/
+/****           with wrapper        ****/
+/***************************************/
+
+
+
+
+
+/***************************************/
+/****            Start              ****/
+/****            Footer             ****/
+/***************************************/
+
+.footer{
+    margin-top: 150px;
+
+    display: flex;
+    justify-content: space-around;
+    width: 1920px;
+    background: #8F8E8E;
+}
+
+.footerContact,
+.footerSocial,
+.footerEmail{
+    margin-top: 40px;
+}
+
+.footerTitle{
+    color: #000;
+    font-size: 33px;
+    font-family: Inter;
+}
+
+.contactMap_text{
+    color: #000;
+    font-size: 15px;
+    font-family: Inter;
+    line-height: 34px;
+}
+
+.footerSocial_text{
+    color: #000;
+    font-size: 15px;
+    font-family: Inter;
+    line-height: 34px;
+    letter-spacing: 0.34px;
+}
+
+.footerIcon{
+    display: flex;
+}
+
+.footerIcon i{
+    margin-left: 20px;
+}
+
+.footerNav{
+    display: flex;
+    margin-top: 15px;
+}
+
+.footerEmail_title{
+    color: #000;
+    font-size: 15px;
+    font-family: Inter;
+    line-height: 20.4px;
+}
+
+#footerEmail{
+    width: 286px;
+    height: 50px;
+
+    border: 1px solid #000;
+    background: none;
+    color: #fafafa;
+}
+
+#footerEmail::placeholder{
+    color: #000;
+}
+
+.footerBtn{
+    margin-left: 10px;
+
+    width: 100px;
+    height: 50px;
+
+    background: #000;
+
+    color: #8F8E8E;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 22.4px;
+    transition: .5s ease-out;
+}
+
+.footerBtn:hover{
+    background: #b8b8b8;
+    color: black;
+    cursor: pointer;
+}
+
+.commerce{
+    width: 1920px;
+    background: #000;
+}
+
+.commerce_text{
+    color: #8F8E8E;
+    text-align: center;
+    font-size: 15px;
+    font-family: Inter;
+    line-height: 28.9px;
+}
+
+/***************************************/
+/****            End                ****/
+/****            Footer             ****/
+/***************************************/
